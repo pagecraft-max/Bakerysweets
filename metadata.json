@@ -1,0 +1,8 @@
+{
+  "name": "Aura Artisan Bakery",
+  "description": "Luxury artisan bakery \u0026 patisserie featuring handcrafted cakes, pastries, breads, and seamless WhatsApp ordering.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

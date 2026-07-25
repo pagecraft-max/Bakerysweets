@@ -1,0 +1,409 @@
+{
+  "bakery": {
+    "name": "Aura Artisan Bakery",
+    "slogan": "Handcrafted with Passion, Baked Fresh Daily",
+    "subheading": "Experience the authentic art of French patisserie and traditional sourdough boulangerie right at your doorstep.",
+    "phone": "+91 9167305507",
+    "whatsapp": "919167305507",
+    "whatsappDisplay": "+91 9167305507",
+    "email": "orders@aurabakery.com",
+    "address": "12 Maison De Fleur, Bandra West, Mumbai, MH 400050",
+    "currencySymbol": "₹",
+    "deliveryFee": 50,
+    "freeDeliveryThreshold": 800,
+    "googleMapUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.7981501704576!2d72.82914107593259!3d19.05060895275813!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c9383e29f3f9%3A0x7d87a419f7e71318!2sBandra%20West%2C%20Mumbai%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1700000000000!5m2!1sen!2sin",
+    "businessHours": [
+      { "day": "Monday - Friday", "time": "07:00 AM - 09:30 PM" },
+      { "day": "Saturday - Sunday", "time": "08:00 AM - 10:00 PM" }
+    ],
+    "socials": {
+      "instagram": "https://instagram.com/aurartisanbakery",
+      "facebook": "https://facebook.com/aurartisanbakery",
+      "twitter": "https://twitter.com/aurartisanbakery"
+    }
+  },
+  "categories": [
+    { "id": "all", "name": "All Items", "icon": "Utensils" },
+    { "id": "Cakes", "name": "Cakes", "icon": "Cake" },
+    { "id": "Pastries", "name": "Pastries", "icon": "Croissant" },
+    { "id": "Bread", "name": "Bread", "icon": "Bread" },
+    { "id": "Cookies", "name": "Cookies", "icon": "Cookie" },
+    { "id": "Cupcakes", "name": "Cupcakes", "icon": "CakeSlice" },
+    { "id": "Donuts", "name": "Donuts", "icon": "CircleDot" },
+    { "id": "Brownies", "name": "Brownies", "icon": "Square" },
+    { "id": "Beverages", "name": "Beverages", "icon": "Coffee" }
+  ],
+  "coupons": [
+    { "code": "WELCOME20", "discountType": "percentage", "value": 20, "minOrder": 300, "description": "20% OFF on your first order (Min ₹300)" },
+    { "code": "FRESH10", "discountType": "percentage", "value": 10, "minOrder": 200, "description": "10% OFF on all fresh items" },
+    { "code": "AURA100", "discountType": "flat", "value": 100, "minOrder": 600, "description": "Flat ₹100 OFF on orders above ₹600" }
+  ],
+  "products": [
+    {
+      "id": "p1",
+      "name": "Belgian Dark Chocolate Fudge Cake",
+      "category": "Cakes",
+      "price": 850,
+      "rating": 4.9,
+      "reviewsCount": 128,
+      "badge": "Bestseller",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop",
+      "description": "Rich 70% Belgian dark chocolate sponge layered with smooth chocolate ganache and finished with cocoa nibs.",
+      "isEggless": true,
+      "weight": "500g",
+      "prepTime": "Freshly Prepared"
+    },
+    {
+      "id": "p2",
+      "name": "French Butter Croissant",
+      "category": "Pastries",
+      "price": 120,
+      "rating": 4.8,
+      "reviewsCount": 210,
+      "badge": "Chef's Special",
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop",
+      "description": "Golden, flaky 81-layer croissant handmade with cultured Normandy butter and sea salt.",
+      "isEggless": false,
+      "weight": "1 Piece (90g)",
+      "prepTime": "Baked Hourly"
+    },
+    {
+      "id": "p3",
+      "name": "Artisanal Country Sourdough Loaf",
+      "category": "Bread",
+      "price": 220,
+      "rating": 4.9,
+      "reviewsCount": 95,
+      "badge": "Organic",
+      "image": "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?q=80&w=800&auto=format&fit=crop",
+      "description": "Naturally fermented for 36 hours using organic stoneground flour. Crispy blistered crust with a open, airy crumb.",
+      "isEggless": true,
+      "weight": "450g",
+      "prepTime": "36h Fermentation"
+    },
+    {
+      "id": "p4",
+      "name": "Red Velvet Cream Cheese Cake",
+      "category": "Cakes",
+      "price": 780,
+      "rating": 4.7,
+      "reviewsCount": 84,
+      "badge": "New",
+      "image": "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?q=80&w=800&auto=format&fit=crop",
+      "description": "Classic soft cocoa velvet sponge layered with silky mascarpone cream cheese frosting and white chocolate curls.",
+      "isEggless": true,
+      "weight": "500g",
+      "prepTime": "Freshly Prepared"
+    },
+    {
+      "id": "p5",
+      "name": "Pistachio Raspberry Macaron Box",
+      "category": "Pastries",
+      "price": 480,
+      "rating": 4.9,
+      "reviewsCount": 164,
+      "badge": "Bestseller",
+      "image": "https://images.unsplash.com/photo-1569864358642-9d1684040f43?q=80&w=800&auto=format&fit=crop",
+      "description": "Box of 6 delicate almond flour macarons filled with Sicilian pistachio ganache and tangy raspberry compote.",
+      "isEggless": false,
+      "weight": "Box of 6",
+      "prepTime": "Ready To Eat"
+    },
+    {
+      "id": "p6",
+      "name": "Double Choc Choc-Chip Giant Cookies",
+      "category": "Cookies",
+      "price": 180,
+      "rating": 4.8,
+      "reviewsCount": 112,
+      "badge": "Organic",
+      "image": "https://images.unsplash.com/photo-1499636136210-6f4ee915583e?q=80&w=800&auto=format&fit=crop",
+      "description": "Chewy, warm chocolate cookies loaded with dark chocolate chunks and topped with Maldon sea salt flakes.",
+      "isEggless": true,
+      "weight": "2 Large Cookies",
+      "prepTime": "Baked Fresh"
+    },
+    {
+      "id": "p7",
+      "name": "Vanilla Bean Salted Caramel Cupcake",
+      "category": "Cupcakes",
+      "price": 140,
+      "rating": 4.6,
+      "reviewsCount": 76,
+      "badge": "New",
+      "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?q=80&w=800&auto=format&fit=crop",
+      "description": "Madagascar vanilla bean cupcake filled with gooey artisanal salted caramel and topped with buttercream.",
+      "isEggless": true,
+      "weight": "1 Piece",
+      "prepTime": "Freshly Baked"
+    },
+    {
+      "id": "p8",
+      "name": "Nutella Glazed Hazelnut Donut",
+      "category": "Donuts",
+      "price": 130,
+      "rating": 4.9,
+      "reviewsCount": 190,
+      "badge": "Bestseller",
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop",
+      "description": "Fluffy yeast donut dipped in velvety Nutella glaze and sprinkled with roasted Piedmont hazelnut crunch.",
+      "isEggless": true,
+      "weight": "1 Large Donut",
+      "prepTime": "Baked Daily"
+    },
+    {
+      "id": "p9",
+      "name": "Fudgy Walnut Espresso Brownie",
+      "category": "Brownies",
+      "price": 160,
+      "rating": 4.8,
+      "reviewsCount": 142,
+      "badge": "Chef's Special",
+      "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop",
+      "description": "Decadent dark chocolate brownie infused with single-origin Arabica espresso and roasted California walnuts.",
+      "isEggless": true,
+      "weight": "1 Slice (120g)",
+      "prepTime": "Warm Serving"
+    },
+    {
+      "id": "p10",
+      "name": "Iced Vanilla Bean Oat Milk Latte",
+      "category": "Beverages",
+      "price": 210,
+      "rating": 4.9,
+      "reviewsCount": 88,
+      "badge": "New",
+      "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800&auto=format&fit=crop",
+      "description": "Cold brewed Arabica coffee shaken with organic oat milk and natural Madagascar vanilla bean syrup.",
+      "isEggless": true,
+      "weight": "350 ml",
+      "prepTime": "Brewed To Order"
+    },
+    {
+      "id": "p11",
+      "name": "Fresh Blueberry Cheesecake Slice",
+      "category": "Cakes",
+      "price": 260,
+      "rating": 4.9,
+      "reviewsCount": 215,
+      "badge": "Bestseller",
+      "image": "https://images.unsplash.com/photo-1533134242443-d4fd215305ad?q=80&w=800&auto=format&fit=crop",
+      "description": "New York style baked cheesecake topped with handmade wild blueberry compote on a graham cracker crust.",
+      "isEggless": true,
+      "weight": "1 Slice (150g)",
+      "prepTime": "Chilled Fresh"
+    },
+    {
+      "id": "p12",
+      "name": "Almond Frangipane Tart",
+      "category": "Pastries",
+      "price": 190,
+      "rating": 4.7,
+      "reviewsCount": 64,
+      "badge": "Organic",
+      "image": "https://images.unsplash.com/photo-1509440159596-0249088772ff?q=80&w=800&auto=format&fit=crop",
+      "description": "Crisp buttery tart shell filled with rich almond cream and topped with toasted flaked almonds.",
+      "isEggless": false,
+      "weight": "1 Slice",
+      "prepTime": "Freshly Baked"
+    },
+    {
+      "id": "p13",
+      "name": "Garlic Herb Focaccia Bread",
+      "category": "Bread",
+      "price": 180,
+      "rating": 4.8,
+      "reviewsCount": 82,
+      "badge": "Chef's Special",
+      "image": "https://images.unsplash.com/photo-1586444248902-2f64eddc13df?q=80&w=800&auto=format&fit=crop",
+      "description": "Italian flatbread dimpled with extra virgin olive oil, fresh rosemary, roasted garlic cloves, and sea salt flakes.",
+      "isEggless": true,
+      "weight": "350g",
+      "prepTime": "Baked Daily"
+    },
+    {
+      "id": "p14",
+      "name": "Matcha White Chocolate Cookies",
+      "category": "Cookies",
+      "price": 190,
+      "rating": 4.6,
+      "reviewsCount": 51,
+      "badge": "New",
+      "image": "https://images.unsplash.com/photo-1558961363-fa8fdf82db35?q=80&w=800&auto=format&fit=crop",
+      "description": "Japanese ceremonial grade matcha cookies studded with creamy Swiss white chocolate chips.",
+      "isEggless": true,
+      "weight": "2 Cookies",
+      "prepTime": "Freshly Baked"
+    },
+    {
+      "id": "p15",
+      "name": "Ferrero Rocher Deluxe Cake",
+      "category": "Cakes",
+      "price": 980,
+      "rating": 5.0,
+      "reviewsCount": 310,
+      "badge": "Bestseller",
+      "image": "https://images.unsplash.com/photo-1606890737304-57a1ca8a5b62?q=80&w=800&auto=format&fit=crop",
+      "description": "Hazelnut sponge cake layered with crunchy praline hazelnut mousse, Nutella drip, and Ferrero Rocher truffles.",
+      "isEggless": true,
+      "weight": "500g",
+      "prepTime": "Freshly Prepared"
+    },
+    {
+      "id": "p16",
+      "name": "Pain Au Chocolat",
+      "category": "Pastries",
+      "price": 140,
+      "rating": 4.9,
+      "reviewsCount": 185,
+      "badge": "Bestseller",
+      "image": "https://images.unsplash.com/photo-1623334044303-241021148842?q=80&w=800&auto=format&fit=crop",
+      "description": "Flaky buttery puff pastry folded around two batons of dark French baking chocolate.",
+      "isEggless": false,
+      "weight": "1 Piece (100g)",
+      "prepTime": "Baked Hourly"
+    },
+    {
+      "id": "p17",
+      "name": "Artisanal Brioche Buns (4 Pack)",
+      "category": "Bread",
+      "price": 160,
+      "rating": 4.7,
+      "reviewsCount": 73,
+      "badge": "Organic",
+      "image": "https://images.unsplash.com/photo-1608198093002-ad4e005484ec?q=80&w=800&auto=format&fit=crop",
+      "description": "Ultra-soft, pillowy French brioche buns with a subtle glaze. Perfect for gourmet burgers or slider sandwiches.",
+      "isEggless": false,
+      "weight": "4 Pack (300g)",
+      "prepTime": "Baked Daily"
+    },
+    {
+      "id": "p18",
+      "name": "Triple Chocolate Fudge Brownie",
+      "category": "Brownies",
+      "price": 170,
+      "rating": 4.9,
+      "reviewsCount": 142,
+      "badge": "Bestseller",
+      "image": "https://images.unsplash.com/photo-1515037893149-de7f840978e2?q=80&w=800&auto=format&fit=crop",
+      "description": "Ooey gooey dark, milk, and white chocolate brownie with a shiny crinkly top.",
+      "isEggless": true,
+      "weight": "1 Piece (120g)",
+      "prepTime": "Freshly Baked"
+    },
+    {
+      "id": "p19",
+      "name": "Boston Cream Custard Donut",
+      "category": "Donuts",
+      "price": 135,
+      "rating": 4.8,
+      "reviewsCount": 98,
+      "badge": "Chef's Special",
+      "image": "https://images.unsplash.com/photo-1527515637462-cff94eecc1ac?q=80&w=800&auto=format&fit=crop",
+      "description": "Pillowy donut filled with silky vanilla bean custard and topped with dark chocolate glaze.",
+      "isEggless": true,
+      "weight": "1 Piece",
+      "prepTime": "Baked Daily"
+    },
+    {
+      "id": "p20",
+      "name": "Artisanal Hot Chocolate with Marshmallows",
+      "category": "Beverages",
+      "price": 190,
+      "rating": 4.9,
+      "reviewsCount": 167,
+      "badge": "Bestseller",
+      "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?q=80&w=800&auto=format&fit=crop",
+      "description": "Thick Valrhona 66% chocolate melted with whole milk, topped with toasted artisanal vanilla marshmallows.",
+      "isEggless": true,
+      "weight": "300 ml",
+      "prepTime": "Served Hot"
+    }
+  ],
+  "testimonials": [
+    {
+      "id": "t1",
+      "name": "Ananya Sharma",
+      "role": "Food Critic & Designer",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=200&auto=format&fit=crop",
+      "rating": 5,
+      "comment": "The Belgian Dark Chocolate Fudge cake was the star of our anniversary dinner! Truly French patisserie quality in Mumbai. Delivery on WhatsApp was seamless!"
+    },
+    {
+      "id": "t2",
+      "name": "Rohan Mehta",
+      "role": "Coffee & Pastry Connoisseur",
+      "avatar": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=200&auto=format&fit=crop",
+      "rating": 5,
+      "comment": "As a sourdough fanatic, their Artisanal Country Loaf is hands down the best in the city. Incredible blistered crust, airy crumb, and fantastic sourdough aroma!"
+    },
+    {
+      "id": "t3",
+      "name": "Priya Kapoor",
+      "role": "Event Planner",
+      "avatar": "https://images.unsplash.com/photo-1517841905240-472988babdf9?q=80&w=200&auto=format&fit=crop",
+      "rating": 5,
+      "comment": "We ordered 50 mini croissant boxes for a corporate breakfast. Every single croissant was golden, flaky, and buttery. Aura Bakery is now our official partner!"
+    }
+  ],
+  "faqs": [
+    {
+      "question": "How do I place an order on WhatsApp?",
+      "answer": "Simply add your favorite baked goods to the cart, click checkout, fill in your delivery details, and tap 'Order on WhatsApp'. It instantly opens WhatsApp with your itemized summary ready to send!"
+    },
+    {
+      "question": "Are your products freshly baked daily?",
+      "answer": "Yes! Every loaf of bread, croissant, cake, and cookie is baked fresh every morning by our master bakers using 100% natural and unbleached ingredients."
+    },
+    {
+      "question": "Do you offer eggless options?",
+      "answer": "Yes! Over 80% of our products—including our best-selling Belgian Chocolate Fudge cake, brownies, donuts, sourdoughs, and cookies—are 100% eggless. Look for the 'Eggless' badge on items."
+    },
+    {
+      "question": "What is the delivery radius and fee?",
+      "answer": "We deliver across Mumbai & surrounding areas. Delivery is flat ₹50, and FREE for all orders above ₹800."
+    },
+    {
+      "question": "Can I request custom cake designs or message toppings?",
+      "answer": "Absolutely! After placing your order on WhatsApp, you can share custom message requirements, reference images, or special dietary notes directly with our head pastry chef."
+    }
+  ],
+  "gallery": [
+    {
+      "id": "g1",
+      "title": "Fresh Morning Croissants",
+      "category": "Pastries",
+      "image": "https://images.unsplash.com/photo-1555507036-ab1f4038808a?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": "g2",
+      "title": "Belgian Chocolate Masterpiece",
+      "category": "Cakes",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": "g3",
+      "title": "Artisanal Sourdough Fermentation",
+      "category": "Bread",
+      "image": "https://images.unsplash.com/photo-1589367920969-ab8e050bbb04?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": "g4",
+      "title": "Pistachio Raspberry Macarons",
+      "category": "Pastries",
+      "image": "https://images.unsplash.com/photo-1569864358642-9d1684040f43?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": "g5",
+      "title": "Salted Caramel Cupcakes",
+      "category": "Cupcakes",
+      "image": "https://images.unsplash.com/photo-1576618148400-f54bed99fcfd?q=80&w=800&auto=format&fit=crop"
+    },
+    {
+      "id": "g6",
+      "title": "Gourmet Donut Display",
+      "category": "Donuts",
+      "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop"
+    }
+  ]
+}
